@@ -840,7 +840,6 @@ ul li {
 @media screen and (max-width: 576px){
     .container {
         width: 100%;
-        padding: 0;
     }
     .wrap_play_top .podcast_thumb{
         display: none;
