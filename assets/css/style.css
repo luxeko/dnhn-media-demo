@@ -885,6 +885,12 @@ ul li {
     .podcast_control .podcast_playback_speed span {
         font-size: 14px;
     }
+    .list_detail_podcast {
+        grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    }
+    .podcast_search {
+        margin-right: 20px;
+    }
 }
 @media screen and (max-width: 280px) {
     .wrap_play_podcast .podcast_detail_info .podcast_title {
