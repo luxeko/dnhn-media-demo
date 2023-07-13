@@ -565,8 +565,9 @@ ul li {
     position: fixed;
     left: 50%;
     bottom: 0;
-    transform: translateX(-50%);
+    transform: translate(-50%,200%);
     z-index: 100;
+    transition: ease-in-out 0.5s;
 }
 .podcast_bg .overlay{
     position: absolute;
@@ -606,9 +607,7 @@ ul li {
     position: relative;
     background: #d1d5db;
     box-shadow: 0 10px 15px -3px rgb(0 0 0 / 0.1), 0 4px 6px -4px rgb(0 0 0 / 0.1);
-    transition: ease-in-out 0.5s;
     background-blend-mode: overlay !important;
-    /*transform: translateY(200%)*/
 }
 .wrap_play_podcast .wrap_play_top {
     display: flex;

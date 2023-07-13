@@ -82,6 +82,7 @@ const displayTimer = () => {
     }
 }
 playBtn.addEventListener('click', function () {
+    console.log(123)
     if (player.getPlayerState() === 1) {
         player.pauseVideo();
         playBtn.children[0].classList.remove('bi-pause-circle-fill')
@@ -328,9 +329,9 @@ let scrollPos = 0;
 function checkPosition () {
     let windowY = window.scrollY;
     if (windowY > 400) {
-        podcastScroll.children[0].children[0].style = 'transform: translateY(0%)'
+        podcastScroll.style = 'transform: translate(-50%,0%)'
     } else {
-        podcastScroll.children[0].children[0].style = 'transform: translateY(200%)'
+        podcastScroll.style = 'transform: translate(-50%,200%)'
     }
     scrollPos = windowY;
 }
