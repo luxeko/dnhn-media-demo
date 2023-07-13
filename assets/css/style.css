@@ -840,6 +840,11 @@ ul li {
     .container {
         width: 100%;
     }
+    .podcast_scroll_container {
+        padding-right: 0;
+        padding-left: 0;
+    }
+
     .wrap_play_top .podcast_thumb{
         display: none;
     }
